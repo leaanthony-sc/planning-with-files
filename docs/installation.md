@@ -39,19 +39,19 @@ Clone or copy this repository into your project's `.claude/plugins/` directory:
 
 ```bash
 mkdir -p .claude/plugins
-git clone https://github.com/OthmanAdi/planning-with-files.git .claude/plugins/planning-with-files
+git clone https://github.com/leaanthony-sc/planning-with-files.git .claude/plugins/planning-with-files
 ```
 
 #### Option B: Add as git submodule
 
 ```bash
-git submodule add https://github.com/OthmanAdi/planning-with-files.git .claude/plugins/planning-with-files
+git submodule add https://github.com/leaanthony-sc/planning-with-files.git .claude/plugins/planning-with-files
 ```
 
 #### Option C: Use --plugin-dir flag
 
 ```bash
-git clone https://github.com/OthmanAdi/planning-with-files.git
+git clone https://github.com/leaanthony-sc/planning-with-files.git
 claude --plugin-dir ./planning-with-files
 ```
 
@@ -62,7 +62,7 @@ claude --plugin-dir ./planning-with-files
 If you only want the skill without the full plugin structure:
 
 ```bash
-git clone https://github.com/OthmanAdi/planning-with-files.git
+git clone https://github.com/leaanthony-sc/planning-with-files.git
 cp -r planning-with-files/skills/* ~/.claude/skills/
 ```
 
@@ -73,7 +73,7 @@ cp -r planning-with-files/skills/* ~/.claude/skills/
 Extract just the skill directly into your current directory:
 
 ```bash
-curl -L https://github.com/OthmanAdi/planning-with-files/archive/master.tar.gz | tar -xzv --strip-components=2 "planning-with-files-master/skills/planning-with-files"
+curl -L https://github.com/leaanthony-sc/planning-with-files/archive/master.tar.gz | tar -xzv --strip-components=2 "planning-with-files-master/skills/planning-with-files"
 ```
 
 Then move `planning-with-files/` to `~/.claude/skills/`.
@@ -143,26 +143,8 @@ rm -rf ~/.claude/skills/planning-with-files
 
 ---
 
-## Platform-Specific Notes
-
-### Windows
-
-See [docs/windows.md](windows.md) for Windows-specific installation notes.
-
-### Cursor
-
-See [docs/cursor.md](cursor.md) for Cursor IDE installation.
-
-### Codex
-
-See [docs/codex.md](codex.md) for Codex IDE installation.
-
-### OpenCode
-
-See [docs/opencode.md](opencode.md) for OpenCode IDE installation.
-
 ---
 
 ## Need Help?
 
-If installation fails, check [docs/troubleshooting.md](troubleshooting.md) or open an issue at [github.com/OthmanAdi/planning-with-files/issues](https://github.com/OthmanAdi/planning-with-files/issues).
+If installation fails, check [docs/troubleshooting.md](troubleshooting.md) or open an issue at [github.com/OthmanAdi/planning-with-files/issues](https://github.com/leaanthony-sc/planning-with-files/issues).

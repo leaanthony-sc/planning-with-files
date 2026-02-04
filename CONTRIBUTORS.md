@@ -12,47 +12,47 @@ These amazing people have contributed code, documentation, or significant improv
 
 ### Major Contributions
 
-- **[@kaichen](https://github.com/kaichen)** - [PR #9](https://github.com/OthmanAdi/planning-with-files/pull/9)
+- **[@kaichen](https://github.com/kaichen)** - [PR #9](https://github.com/leaanthony-sc/planning-with-files/pull/9)
   - Converted the repository to Claude Code plugin structure
   - Enabled marketplace installation
   - Followed official plugin standards
   - **Impact:** Made the skill accessible to the masses
 
-- **[@fuahyo](https://github.com/fuahyo)** - [PR #12](https://github.com/OthmanAdi/planning-with-files/pull/12)
+- **[@fuahyo](https://github.com/fuahyo)** - [PR #12](https://github.com/leaanthony-sc/planning-with-files/pull/12)
   - Added "Build a todo app" walkthrough with 4 phases
   - Created inline comments for templates (WHAT/WHY/WHEN/EXAMPLE)
   - Developed Quick Start guide with ASCII reference tables
   - Created workflow diagram showing task lifecycle
   - **Impact:** Dramatically improved beginner onboarding
 
-- **[@lasmarois](https://github.com/lasmarois)** - [PR #33](https://github.com/OthmanAdi/planning-with-files/pull/33)
+- **[@lasmarois](https://github.com/lasmarois)** - [PR #33](https://github.com/leaanthony-sc/planning-with-files/pull/33)
   - Created session recovery feature for context preservation after `/clear`
   - Built `session-catchup.py` script to analyze previous session JSONL files
   - Enhanced PreToolUse hook to include Read/Glob/Grep operations
   - Restructured SKILL.md for better session recovery workflow
   - **Impact:** Solves context loss problem, enables seamless work resumption
 
-- **[@aimasteracc](https://github.com/aimasteracc)** - [PR #30](https://github.com/OthmanAdi/planning-with-files/pull/30)
+- **[@aimasteracc](https://github.com/aimasteracc)** - [PR #30](https://github.com/leaanthony-sc/planning-with-files/pull/30)
   - Added Kilocode IDE support and documentation
   - Created PowerShell scripts for Windows compatibility
   - Added `.kilocode/rules/` configuration
   - Updated documentation for multi-IDE support
   - **Impact:** Windows compatibility and IDE ecosystem expansion
 
-- **[@SaladDay](https://github.com/SaladDay)** - [PR #57](https://github.com/OthmanAdi/planning-with-files/pull/57)
+- **[@SaladDay](https://github.com/SaladDay)** - [PR #57](https://github.com/leaanthony-sc/planning-with-files/pull/57)
   - Fixed Stop hook POSIX sh compatibility for Debian/Ubuntu
   - Replaced bashisms (`[[`, `&>`) with POSIX constructs
   - Added shell-agnostic Windows detection using `uname -s`
   - **Impact:** Fixes hook failures on systems using dash as `/bin/sh`
 
-- **[@murphyXu](https://github.com/murphyXu)** - [PR #56](https://github.com/OthmanAdi/planning-with-files/pull/56)
+- **[@murphyXu](https://github.com/murphyXu)** - [PR #56](https://github.com/leaanthony-sc/planning-with-files/pull/56)
   - Added Continue IDE integration (VS Code / JetBrains)
   - Created `.continue/skills/` and `.continue/prompts/` structure
   - Added Chinese language slash command prompt
   - Created `docs/continue.md` installation guide
   - **Impact:** Expands IDE support to Continue.dev ecosystem
 
-- **[@ZWkang](https://github.com/ZWkang)** - [PR #60](https://github.com/OthmanAdi/planning-with-files/pull/60)
+- **[@ZWkang](https://github.com/ZWkang)** - [PR #60](https://github.com/leaanthony-sc/planning-with-files/pull/60)
   - Added CodeBuddy IDE integration (Tencent Cloud AI coding assistant)
   - Created `.codebuddy/skills/` folder with full skill structure
   - Added templates, scripts, and references for CodeBuddy
@@ -61,15 +61,15 @@ These amazing people have contributed code, documentation, or significant improv
 
 ### Other Contributors
 
-- **[@tobrun](https://github.com/tobrun)** - [PR #3](https://github.com/OthmanAdi/planning-with-files/pull/3)
+- **[@tobrun](https://github.com/tobrun)** - [PR #3](https://github.com/leaanthony-sc/planning-with-files/pull/3)
   - Early directory structure improvements
   - Helped identify optimal repository layout
 
-- **[@markocupic024](https://github.com/markocupic024)** - [PR #4](https://github.com/OthmanAdi/planning-with-files/pull/4)
+- **[@markocupic024](https://github.com/markocupic024)** - [PR #4](https://github.com/leaanthony-sc/planning-with-files/pull/4)
   - Cursor IDE support contribution
   - Helped establish multi-IDE pattern
 
-- **Copilot SWE Agent** - [PR #16](https://github.com/OthmanAdi/planning-with-files/pull/16)
+- **Copilot SWE Agent** - [PR #16](https://github.com/leaanthony-sc/planning-with-files/pull/16)
   - Fixed template bundling in plugin.json
   - Added `assets` field to ensure templates copy to cache
   - **Impact:** Resolved template path issues
@@ -104,7 +104,7 @@ We welcome contributions! Here's how you can help:
 4. **Share** - Tell others about planning-with-files
 5. **Create Forks** - Build on this work (with attribution)
 
-See our [repository](https://github.com/OthmanAdi/planning-with-files) for more details.
+See our [repository](https://github.com/leaanthony-sc/planning-with-files) for more details.
 
 ## Recognition
 

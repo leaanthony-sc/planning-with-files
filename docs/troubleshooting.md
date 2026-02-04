@@ -217,21 +217,11 @@ hooks:
 
 ---
 
-## Windows-specific issues
-
-See [docs/windows.md](windows.md) for Windows-specific troubleshooting.
-
----
-
-## Cursor-specific issues
-
-See [docs/cursor.md](cursor.md) for Cursor IDE troubleshooting.
-
 ---
 
 ## Still stuck?
 
-Open an issue at [github.com/OthmanAdi/planning-with-files/issues](https://github.com/OthmanAdi/planning-with-files/issues) with:
+Open an issue at [github.com/OthmanAdi/planning-with-files/issues](https://github.com/leaanthony-sc/planning-with-files/issues) with:
 
 - Your Claude Code version (`claude --version`)
 - Your operating system
